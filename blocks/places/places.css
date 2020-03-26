@@ -1,0 +1,35 @@
+.places {
+    max-width: 984px;
+    padding-top: 92px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+div:last-of-type {
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 1278px) {
+    .places {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    .places {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .places {
+        max-width: 375px;
+        padding-top: 64px;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .places {
+        max-width: 320px;
+    }
+}

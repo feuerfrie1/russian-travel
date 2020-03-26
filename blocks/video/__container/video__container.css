@@ -1,0 +1,32 @@
+.video__container {
+    max-width: 1184px;
+    height: 323px;
+    display: flex;
+}
+
+@media screen and (max-width: 1278px) {
+    .video__container {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    .video__container {
+        max-width: 720px;
+        max-height: 580px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .video__container {
+        max-width: 343px;
+        height: 408px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .video__container {
+        max-width: 288px;
+    }
+}

@@ -1,0 +1,44 @@
+@import url(../../blocks/intro/__content-row/intro__content-row.css);
+@import url(../../blocks/intro/__text/intro__text.css);
+@import url(../../blocks/intro/__title/intro__title.css);
+
+.intro {
+    max-width: 985px;
+    height: 371px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-bottom: 102px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1278px) {
+    .intro {
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    .intro {
+        max-width: 720px;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .intro {
+        max-width: 343px;
+        height: 693px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .intro {
+        max-width: 288px;
+        height: 784px;
+    }
+}

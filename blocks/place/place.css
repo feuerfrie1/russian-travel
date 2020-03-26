@@ -1,0 +1,35 @@
+@import url(../../blocks/place/__image/place__image.css);
+@import url(../../blocks/place/__paragraph/place__paragraph.css);
+@import url(../../blocks/place/__title/place__title.css);
+@import url(../../blocks/place/__website/place__website.css);
+
+.place {
+    padding-bottom: 72px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 40px;
+}
+
+@media screen and (max-width: 1022px) {
+    .place {
+        max-width: 720px;
+        grid-column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .place {
+        max-width: 375px;
+        grid-template-columns: repeat(1, 100%);
+        padding-bottom: 48px;
+        grid-row-gap: 24px;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .place {
+        max-width: 320px;
+        height: 983px;
+    }
+}

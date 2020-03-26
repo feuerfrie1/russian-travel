@@ -1,0 +1,61 @@
+@import url(../../blocks/video/__container/video__container.css);
+@import url(../../blocks/video/__content-subtitle/video__content-subtitle.css);
+@import url(../../blocks/video/__content-title/video__content-title.css);
+@import url(../../blocks/video/__container/_item/video__container_item.css);
+@import url(../../blocks/video/__duration/video__duration.css);
+@import url(../../blocks/video/__icon-play/video__icon-play.css);
+@import url(../../blocks/video/__subtitle/video__subtitle.css);
+@import url(../../blocks/video/__title/video__title.css);
+@import url(../../blocks/video/__image-link/video__image-link.css);
+@import url(../../blocks/video/__image-link/_kamchatka/video__image-link_kamchatka.css);
+@import url(../../blocks/video/__image-link/_observatory/video__image-link_observatory.css);
+@import url(../../blocks/video/__elements/video__elements.css);
+@import url(../../blocks/video/__rect/video__rect.css);
+@import url(../../blocks/video/__duration/_kamchatka/video__duration_kamchatka.css);
+@import url(../../blocks/video/__duration/_obsrvatory/video__duration_observatory.css);
+@import url(../../blocks/video/__title/_kamchatka/video__title_kamchatka.css);
+@import url(../../blocks/video/__title/_observatory/video__title_observatory.css);
+
+.video {
+    max-width: 1184px;
+    max-height: 648px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+    color: #FFFFFF;
+    padding-top: 102px;
+    padding-bottom: 102px;
+}
+
+@media screen and (max-width: 1278px) {
+    .video {
+        max-width: 928px;
+        max-height: 580px;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    .video {
+        max-width: 720px;
+        max-height: 442px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .video {
+        max-width: 343px;
+        max-height: 598px;
+        padding-top: 40px;
+        padding-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .video {
+        max-width: 288px;
+        padding-top: 0;
+    }
+}
+

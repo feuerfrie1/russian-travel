@@ -1,0 +1,10 @@
+.lead__content {
+    max-width: 984px;
+    height: 554px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        width: 928px;
+    }
+}

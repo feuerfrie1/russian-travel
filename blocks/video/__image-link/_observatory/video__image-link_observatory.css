@@ -1,0 +1,29 @@
+.video__image-link_observatory {
+    background-image: url('../../../../images/Image.png');
+}
+
+@media screen and (max-width: 1278px) {
+    .video__image-link_observatory {
+        max-width: 456px;
+        max-height: 288px;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    .video__image-link_observatory {
+        max-width: 352px;
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .video__image-link_observatory {
+        max-width: 343px;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .video__image-link_observatory{
+        max-width: 288px;
+    }
+}

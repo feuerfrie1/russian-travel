@@ -1,0 +1,10 @@
+.place__paragraph_upper {
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+@media screen and (max-width: 766px) {
+    .place__paragraph_upper {
+        padding-bottom: 24px;
+    }
+}

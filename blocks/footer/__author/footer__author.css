@@ -1,0 +1,23 @@
+.footer__author {
+    width: 282px;
+    height: 13px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 41px;
+    text-align: right;
+    margin: 0;
+}
+
+@media screen and (max-width: 1022px) {
+    .footer__author {
+        width: 183px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .footer__author {
+        padding-bottom: 24px;
+        text-align: left;
+    }
+}

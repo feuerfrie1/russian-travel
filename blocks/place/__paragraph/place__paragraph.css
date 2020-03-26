@@ -1,0 +1,42 @@
+@import url(../../place/__paragraph/_upper/place__paragraph_upper.css);
+@import url(../../place/__paragraph/_lower/place__paragraph_lower.css);
+
+.place__paragraph {
+    max-width: 484px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+@media screen and (max-width: 1022px) {
+    .place__paragraph {
+        font-size: 0.950em;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .place__paragraph {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .place__paragraph {
+        max-width: 343px;
+        font-size: 16px;
+        line-height: 27px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .place__paragraph {
+        max-width: 288px;
+    }
+}
