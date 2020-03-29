@@ -7,21 +7,8 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1022px) {
-    .lead__image {
-        max-width: 768px;
-    }
-}
-
 @media screen and (max-width: 766px) {
     .lead__image {
-        max-width: 375px;
         margin-top: 31px;
-    }
-}
-
-@media screen and (max-width: 373px) {
-    .lead__image {
-        max-width: 320px;
     }
 }

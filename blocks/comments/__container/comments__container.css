@@ -1,6 +1,5 @@
 .comments__container {
     max-width: 1184px;
-    height: 283px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

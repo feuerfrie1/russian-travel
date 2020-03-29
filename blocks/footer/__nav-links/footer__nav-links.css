@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 766px) {
     .footer__nav-links {
-        height: 312px;
+        min-height: 312px;
         padding-bottom: 24px;
         flex-direction: column;
     }

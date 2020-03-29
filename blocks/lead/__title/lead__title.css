@@ -3,7 +3,6 @@
     font-size: 96px;
     line-height: 93px;
     max-width: 782px;
-    height: 184px;
     text-align: center;
     margin: 0;
     padding-bottom: 48px;
@@ -11,8 +10,25 @@
 
 @media screen and (max-width: 766px) {
     .lead__title {
+        max-width: 720px;
+        font-size: 40px;
+        line-height: 44px;
+        padding-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .lead__title {
+        width: 100%;
+        font-size: 40px;
+        line-height: 44px;
+        padding-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .lead__title {
         max-width: 333px;
-        height: 96px;
         font-size: 40px;
         line-height: 44px;
         padding-bottom: 8px;

@@ -1,6 +1,5 @@
 .comments__subtitle {
     max-width: 640px;
-    height: 58px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -20,6 +19,16 @@
 @media screen and (max-width: 766px) {
     .comments__subtitle {
         max-width: 343px;
+        font-size: 16px;
+        line-height: 23px;
+        padding-top: 16px;
+        padding-bottom: 42px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .comments__subtitle {
+        max-width: 600px;
         font-size: 16px;
         line-height: 23px;
         padding-top: 16px;

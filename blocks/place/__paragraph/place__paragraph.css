@@ -14,20 +14,21 @@
 
 @media screen and (max-width: 1022px) {
     .place__paragraph {
-        font-size: 0.950em;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 766px) {
+    .place__paragraph {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 450px) {
     .place__paragraph {
         grid-row-start: 3;
         grid-column-start: 1;
         grid-column-end: 1;
-    }
-}
-
-@media screen and (max-width: 766px) {
-    .place__paragraph {
         max-width: 343px;
         font-size: 16px;
         line-height: 27px;

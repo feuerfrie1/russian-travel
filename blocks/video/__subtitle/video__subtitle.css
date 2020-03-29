@@ -1,15 +1,13 @@
 .video__subtitle {
     min-width: 174px;
-    height: 13px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 15px;
     margin: 0;
-    z-index: 0;
+    z-index: 1;
     padding-top: 280px;
     padding-left: 30px;
-    padding-bottom: 30px;
     grid-column: 1/4;
     grid-row: 1/2;
 }
@@ -28,7 +26,21 @@
 
 @media screen and (max-width: 766px) {
     .video__subtitle {
-        padding-left: 24px
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .video__subtitle {
+        padding-left: 24px;
+        padding-top: 280px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video__subtitle {
+        padding-left: 24px;
+        padding-top: 160px;
     }
 }
 

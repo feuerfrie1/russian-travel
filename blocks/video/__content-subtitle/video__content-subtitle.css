@@ -1,6 +1,5 @@
 .video__content-subtitle {
     width: 640px;
-    height: 58px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -17,6 +16,26 @@
 }
 
 @media screen and (max-width: 766px) {
+    .video__content-subtitle {
+        max-width: 600px;
+        font-size: 16px;
+        line-height: 23px;
+        padding-top: 16px;
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video__content-subtitle {
+        max-width: 343px;
+        font-size: 16px;
+        line-height: 23px;
+        padding-top: 16px;
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 450px) {
     .video__content-subtitle {
         max-width: 343px;
         font-size: 16px;

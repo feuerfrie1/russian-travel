@@ -1,7 +1,3 @@
-.video__image-link_kamchatka {
-    background-image: url('../../../../images/Image-1.png');
-}
-
 @media screen and (max-width: 1278px) {
     .video__image-link_kamchatka {
         max-width: 456px;
@@ -21,6 +17,21 @@
         max-width: 343px;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .video__image-link_kamchatka {
+        max-width: 600px;
+        max-height: 323px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video__image-link_kamchatka {
+        max-width: 343px;
+        max-height: 200px;
+    }
+}
+
 
 @media screen and (max-width: 373px) {
     .video__image-link_kamchatka{

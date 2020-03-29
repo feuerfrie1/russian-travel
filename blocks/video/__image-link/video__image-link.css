@@ -10,4 +10,5 @@
     grid-column: 1/4;
     grid-row: 1/2;
     background-size: cover;
+    z-index: 1;
 }

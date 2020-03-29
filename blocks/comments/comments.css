@@ -21,14 +21,19 @@
 @media screen and (max-width: 1022px) {
     .comments {
         max-width: 660px;
-        height: 1063px;
     }
 }
 
 @media screen and (max-width: 766px) {
     .comments {
         max-width: 343px;
-        height: 1089px;
+        padding-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .comments {
+        max-width: 700px;
         padding-bottom: 48px;
     }
 }
@@ -36,7 +41,6 @@
 @media screen and (max-width: 373px) {
     .comments {
         max-width: 288px;
-        height: 1136px;
         padding-bottom: 64px;
     }
 }

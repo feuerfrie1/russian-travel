@@ -3,3 +3,15 @@
         padding-top: 102px;
     }
 }
+
+@media (max-width: 720px) {
+    .video__title_observatory {
+        padding-top: 210px;
+    }
+}
+
+@media (max-width: 600px) {
+    .video__title_observatory {
+        padding-top: 102px;
+    }
+}

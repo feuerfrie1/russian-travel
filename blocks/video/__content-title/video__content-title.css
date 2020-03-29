@@ -1,6 +1,4 @@
 .video__content-title {
-    width: 800px;
-    height: 147px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -19,6 +17,24 @@
 }
 
 @media screen and (max-width: 766px) {
+    .video__content-title {
+        max-width: 700px;
+        font-size: 32px;
+        line-height: 35px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video__content-title {
+        max-width: 343px;
+        font-size: 32px;
+        line-height: 35px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
     .video__content-title {
         max-width: 343px;
         font-size: 32px;

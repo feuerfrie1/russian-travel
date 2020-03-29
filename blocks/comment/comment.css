@@ -4,7 +4,6 @@
 
 .comment {
     max-width: 382px;
-    min-height: 213px;
 }
 
 @media screen and (max-width: 1278px) {
@@ -34,6 +33,7 @@
 @media screen and (max-width: 766px) {
     .comment {
         max-width: 343px;
+        margin: 0 auto;
     }
 }
 

@@ -1,6 +1,5 @@
 .footer__nav {
     width: 1184px;
-    min-height: 23px;
     display: flex;
     justify-content: space-between;
 }
