@@ -7,3 +7,15 @@
     grid-column: 1/4;
     grid-row: 1/2;
 }
+
+@media screen and (max-width: 430px) {
+    .cover__link {
+        height: 272px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__link {
+        height: 216px;
+    }
+}

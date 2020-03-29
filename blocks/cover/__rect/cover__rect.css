@@ -1,5 +1,4 @@
 .cover__rect {
     grid-column: 1/4;
     grid-row: 1/2;
-    opacity: 0.8;
 }

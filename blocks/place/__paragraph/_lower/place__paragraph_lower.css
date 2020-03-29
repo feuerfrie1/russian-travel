@@ -1,3 +1,9 @@
 .place__paragraph_lower {
     margin: 0;
 }
+
+@media screen and (max-width: 450px) {
+    .place__paragraph_lower {
+        padding-top: 24px;
+    }
+}
