@@ -9,11 +9,8 @@
 @import url(../../blocks/video/__image-link/video__image-link.css);
 @import url(../../blocks/video/__image-link/_kamchatka/video__image-link_kamchatka.css);
 @import url(../../blocks/video/__image-link/_observatory/video__image-link_observatory.css);
-@import url(../../blocks/video/__elements/video__elements.css);
 @import url(../../blocks/video/__rect/video__rect.css);
-@import url(../../blocks/video/__duration/_kamchatka/video__duration_kamchatka.css);
 @import url(../../blocks/video/__duration/_obsrvatory/video__duration_observatory.css);
-@import url(../../blocks/video/__title/_kamchatka/video__title_kamchatka.css);
 @import url(../../blocks/video/__title/_observatory/video__title_observatory.css);
 
 .video {
